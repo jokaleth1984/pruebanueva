@@ -1,1 +1,9 @@
-
+name: Hola Mundo
+on: []
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+      steps:
+      uses: actions/hello-world-docker-action@main
+      with:
+        who-to-greet: 'Mona the Octocat'
