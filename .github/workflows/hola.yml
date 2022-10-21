@@ -1,5 +1,5 @@
 name: Hola Mundo
-on: [push]
+on: [issues]
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
